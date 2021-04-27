@@ -9,7 +9,7 @@
 body {
 	font-family: 'Cinzel', serif;
 	margin: 0px;
-    background-color: var(--off-white);
+	background-color: var(--off-white);
 }
 
 hr {
@@ -156,6 +156,11 @@ hr {
 	color: white;
 	/* border-top-right-radius: 1rem; */
 }
+@media only screen and (max-width: 600px) {
+	.footer {
+		position: relative;
+	}
+}
 
 .footer .link {
 	color: white;
@@ -182,7 +187,7 @@ hr {
 .btn {
 	border: none;
 	background-color: var(--primary-color);
-    color: white;
+	color: white;
 	height: 3.5rem;
 	width: 35%;
 	margin-top: 1rem;
@@ -192,12 +197,12 @@ hr {
 
 .trText {
 	margin-top: 1rem;
-    font-weight: bold;
+	font-weight: bold;
 }
 .op {
 	box-sizing: border-box;
 	border: 1px solid var(--black);
-    margin-top: 0.5rem;
+	margin-top: 0.5rem;
 	border-radius: 2px;
 	height: 5rem;
 	width: 100%;
@@ -206,8 +211,8 @@ hr {
 	overflow: scroll;
 }
 
-footer p{
+footer p {
 	max-width: 600px;
 	margin: auto;
-    font-size: small;
+	font-size: small;
 }
