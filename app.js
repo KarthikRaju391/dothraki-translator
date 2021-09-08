@@ -9,7 +9,7 @@ function getTranslation(text) {
 
 function errorHandler(error) {
    console.log('Error occured', error);
-   alert('Something is wrong with the server, try again after sometime');
+   alert('API rate limit exceeded, try again after sometime');
 }
 
 function clickEventHandler() {
