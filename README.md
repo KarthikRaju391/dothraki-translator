@@ -8,4 +8,3 @@ This app will translate your English sentences to the infamous Dothraki langauge
 * CSS
 
 
-#### P.S : The funtranslations API isn't responding for some reason. Really sorry for this.
